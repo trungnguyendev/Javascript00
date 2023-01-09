@@ -1,0 +1,40 @@
+// lấy tài liệu URL
+document.URL
+// Lấy tài liệu phần body
+document.body
+// Lấy tài liệu phần head
+document.head
+//Lấy các links trong trang web
+document.links
+// Lấy phần tử id
+document.getElementById('aaaa')
+//Lấy phần tử class
+document.getElementsByClassName('aaa')
+//Lấy phần tử theo tên thẻ
+document.getElementsByTagName('li')
+//lấy phần tử css đã kết nối với HTML
+document.querySelector('#aaaa')
+//Lấy tất cả các phần tử
+document.querySelectorAll('li')
+//Lấy phần tử class trong css đã kết nối với html
+document.querySelectorAll('.aaa')
+//Tạo biến lấy tài liệu
+var myheader = document.querySelector('h2')
+myheader
+ //Đổi màu theo biến
+myheader.style.color='red'; // đổi màu vị trí h2
+ //Lấy thẻ văn bản
+var p = document.querySelector('p')
+//Thay đổi nội dung thẻ p
+p.textContent='new text'
+//Thay đổi màu của thẻ p
+p.innerHTML="<strong>I'm Bold</strong>"
+//Truy vấn thẻ
+var special = document.querySelector('#special')
+special
+var specialA = special.querySelector('a')
+specialA
+//Lấy mỗi links
+specialA.getAttribute('href')
+//Cách đổi links
+specialA.setAttribute("href","https://www.amazon.com")

@@ -1,0 +1,73 @@
+h1{
+    color: blue;
+  }
+  li{
+    color: rgb(255, 0, 0);
+  }
+  p{
+    color: #0895a8
+  }
+  h4{
+    color: rgba(255,97,0,0,5);
+  }
+  body{
+    background: url(https://vntime.org/wp-content/uploads/2020/03/H%C3%ACnh-%E1%BA%A3nh-anime-d%E1%BB%85-th%C6%B0%C6%A1ng-nh%E1%BA%A5t-b%E1%BA%A1n-kh%C3%B4ng-th%E1%BB%83-b%E1%BB%8F-qua-1.jpg);
+  
+    background-repeat: repeat;
+  }
+  div{
+    background-color: blue;
+    border-color: orange;
+    border-width: 4px;
+    border-style: double;
+  }
+  p{
+    color: yellow;
+  }
+  span{
+    background-color: red;
+    color: purple;
+  }
+  .firstDiv{
+    color: blue;
+  }
+  .secondDiv{
+    color: red;
+  }
+  #singledout{
+    color: green;
+    text-decoration: line-through;
+  }
+  h3+ul{
+    border: 4px dotted purple;
+  }
+  li a{
+    color: red;
+  }
+  li a[href="www.npr.org"]{
+    color: blue;
+    border: 2px solid orange;
+  }
+  /* chỉnh chữ */
+  p{
+    font-size: large;
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: italic;
+  }
+  /* Chỉnh hộp */
+  #top{
+    border: 4px solid blue;
+    width: 25%;
+    text-align: center;
+    /* top,right,bottom,left */
+    margin: auto;
+  }
+  #bottom{
+    border: 4px solid red;
+    width: 50%;
+    padding: 200px;
+    text-align: center;
+    margin: auto;
+  }
